@@ -1,0 +1,5 @@
+.fundo {
+  background-color: var(--background);
+  min-height: 100vh;
+  border: 0.59rem solid var(--background-border);
+}
