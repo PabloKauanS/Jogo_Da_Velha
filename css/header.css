@@ -5,9 +5,19 @@ header {
   padding: 0 2rem;
   padding-top: 1rem;
 }
+.detalhe {
+  height: 20px;
+  border-bottom: var(--detail) solid 4px;
+  border-left: var(--detail) solid 4px;
+  border-right: var(--detail) solid 4px;
+  width: 72%;
+  margin: 0 auto;
+  position: relative;
+}
 .titulo {
   font-family: "EB Garamond", serif;
   font-weight: 500;
+  letter-spacing: 0.22rem;
   font-size: 2rem;
 }
 .pontuacao {
