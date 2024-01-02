@@ -1,5 +1,52 @@
 .fundo {
   background-color: var(--background);
-  min-height: 100vh;
-  border: 0.59rem solid var(--background-border);
+  border: 0.5rem solid var(--background-border);
+  height: 100%;
+  box-shadow: 0px 0px 0px 4px black inset;
+}
+.jogo {
+  display: grid;
+  height: calc(100% - 200px);
+  margin: 30px 8%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.caixa-1 {
+  border-right: 0.1rem solid var(--background-border);
+  border-bottom: 0.1rem solid var(--background-border);
+}
+.caixa-2 {
+  border-left: 0.1rem solid var(--background-border);
+  border-right: 0.1rem solid var(--background-border);
+  border-bottom: 0.1rem solid var(--background-border);
+}
+.caixa-3 {
+  border-left: 0.1rem solid var(--background-border);
+  border-bottom: 0.1rem solid var(--background-border);
+}
+.caixa-4 {
+  border-top: 0.1rem solid var(--background-border);
+  border-bottom: 0.1rem solid var(--background-border);
+  border-right: 0.1rem solid var(--background-border);
+}
+.caixa-5 {
+  border: 0.1rem solid var(--background-border);
+}
+.caixa-6 {
+  border-left: 0.1rem solid var(--background-border);
+  border-top: 0.1rem solid var(--background-border);
+  border-bottom: 0.1rem solid var(--background-border);
+}
+.caixa-7 {
+  border-top: 0.1rem solid var(--background-border);
+  border-right: 0.1rem solid var(--background-border);
+}
+.caixa-8 {
+  border-top: 0.1rem solid var(--background-border);
+  border-right: 0.1rem solid var(--background-border);
+  border-left: 0.1rem solid var(--background-border);
+}
+.caixa-9 {
+  border-left: 0.1rem solid var(--background-border);
+  border-top: 0.1rem solid var(--background-border);
 }
